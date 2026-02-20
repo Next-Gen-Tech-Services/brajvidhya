@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import nabcbLogo from "../assets/accreditations/nabcb.png";
+import fssaiLogo from "../assets/accreditations/fssai.png";
+import qciLogo from "../assets/accreditations/qci.png";
+import ifeLogo from "../assets/accreditations/ife.png";
+import beeLogo from "../assets/accreditations/bee.png";
+import msmeLogo from "../assets/accreditations/msme.png";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -19,12 +25,12 @@ const serviceLinks = [
 ];
 
 const recognitions = [
-  { short: "NABCB" },
-  { short: "FSSAI" },
-  { short: "QCI" },
-  { short: "IFE" },
-  { short: "BEE" },
-  { short: "MSME" },
+  { name: "NABCB", img: nabcbLogo },
+  { name: "FSSAI", img: fssaiLogo },
+  { name: "QCI", img: qciLogo },
+  { name: "IFE", img: ifeLogo },
+  { name: "BEE", img: beeLogo },
+  { name: "MSME", img: msmeLogo },
 ];
 const Footer = () => {
   return (
@@ -217,18 +223,21 @@ const Footer = () => {
             Accreditations
           </h4>
 
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-8 items-center">
             {recognitions.map((r) => (
               <div
-                key={r.short}
-                className="px-6 py-3 rounded-lg text-sm font-semibold tracking-wide"
+                key={r.name}
+                className=" flex items-center justify-center p-4 rounded-xl "
                 style={{
-                  background: "rgba(184,150,46,0.08)",
+                  background: "#fff",
                   border: "1px solid rgba(184,150,46,0.25)",
-                  color: "#f5f0e8",
                 }}
               >
-                {r.short}
+                <img
+                  src={r.img}
+                  alt={r.name}
+                  className="h-5 object-cover"
+                />
               </div>
             ))}
           </div>

@@ -187,7 +187,7 @@ const Contact = () => {
     <div style={{ background: "#ffffff", minHeight: "100vh" }}>
 
       {/* ── HERO BANNER ── */}
-      <div className="relative overflow-hidden py-24 px-6 md:px-12"
+      <div className="relative overflow-hidden py-20 px-6 md:px-12"
         style={{ background: "linear-gradient(135deg, #0d2b1c 0%, #1a3d2b 100%)" }}>
         {/* Decorative circles */}
         <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full opacity-5"

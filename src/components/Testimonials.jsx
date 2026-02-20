@@ -65,7 +65,7 @@ const Testimonials = () => {
   const getSlide = (offset) => testimonialsData[(current + offset + total) % total];
 
   return (
-    <section className="py-24 px-6 md:px-12" style={{ background: "#f5f0e8" }}>
+    <section className="py-20 px-6 md:px-12" style={{ background: "#f5f0e8" }}>
       <div className="max-w-full mx-2">
 
         {/* Title */}

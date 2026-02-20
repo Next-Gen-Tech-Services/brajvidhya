@@ -34,7 +34,7 @@ const recognitions = ["NABCB", "FSSAI", "QCI", "IFE", "BEE", "NDIE", "MSME"];
 // ── About Section (for Home page) ─────────────────────────────
 const AboutSection = () => {
   return (
-    <section className="py-24 px-6 md:px-12 overflow-hidden" style={{ background: "#ffffff" }}>
+    <section className="py-20 px-6 md:px-12 overflow-hidden" style={{ background: "#ffffff" }}>
       <div className="max-w-full mx-2">
 
         {/* ── Top: Two-col layout ── */}
