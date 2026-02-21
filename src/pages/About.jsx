@@ -1056,10 +1056,10 @@ const About = () => {
             Contact our team today to start your audit journey with India's most
             trusted inspection body.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-row gap-3 justify-center">
             <Link
               to="/contact"
-              className="px-8 py-3 rounded-full text-sm font-black transition-all duration-300"
+              className="px-5 sm:px-8 py-2.5 sm:py-3 rounded-full text-xs sm:text-sm font-black transition-all duration-300"
               style={{ background: C.greenDk, color: C.gold }}
               onMouseEnter={(e) => (e.currentTarget.style.background = C.green)}
               onMouseLeave={(e) =>
@@ -1070,7 +1070,7 @@ const About = () => {
             </Link>
             <Link
               to="/services"
-              className="px-8 py-3 rounded-full text-sm font-black border-2 transition-all duration-300"
+              className="px-5 sm:px-8 py-2.5 sm:py-3 rounded-full text-xs sm:text-sm font-black border-2 transition-all duration-300"
               style={{
                 borderColor: C.greenDk,
                 color: C.greenDk,
