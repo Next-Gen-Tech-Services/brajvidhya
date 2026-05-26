@@ -10,6 +10,7 @@ import BackToTop from "./components/BackToTop";
 import ScrollToTop from "./components/ScrollToTop";
 import NavbarLeftLogo from "./components/NavbarLeftLogo";
 import ServiceDetail from "./pages/serviceDetail";
+import Grievance from "./pages/Grievance";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/services/:id" element={<ServiceDetail />} />
         <Route path="/goal" element={<GoalPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/grievance" element={<Grievance />} />
       </Routes>
       <Footer />
       {/* <BackToTop /> */}

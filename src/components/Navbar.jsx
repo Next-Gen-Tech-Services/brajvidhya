@@ -8,6 +8,7 @@ const navLinks = [
   { to: "/services", label: "Services" },
   { to: "/goal", label: "Goal" },
   { to: "/contact", label: "Contact" },
+  { to: "/grievance", label: "Grievance" },
 ];
 
 const NavLink = ({ to, label, pathname }) => {
