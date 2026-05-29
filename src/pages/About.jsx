@@ -702,11 +702,11 @@ const About = () => {
               title="Accuracy Policy"
               desc="Brajvidhya Services Private Limited ensures that all inspection, audit, and certification results are accurate, reliable, and based on objective evidence and applicable standards. We strive to maintain consistency and technical competence in all our activities"
             />
-            {/* <ValueCard
+            <ValueCard
               iconKey="impartiality"
               title="Impartiality Policy"
               desc="As an independent third-party body, we ensure complete freedom from conflicts of interest across all inspections and assessments."
-            /> */}
+            />
             <ValueCard
               iconKey="confidentiality"
               title="Confidentiality Policy"
@@ -984,7 +984,7 @@ const About = () => {
               {
                 name: "Hari Singh Kaurav",
                 role: "Managing Director",
-                email: "Harisingh.kaurav@gmail.com",
+                email: "harisingh.kaurav@gmail.com",
                 img: owner2,
               },
             ].map((p) => (

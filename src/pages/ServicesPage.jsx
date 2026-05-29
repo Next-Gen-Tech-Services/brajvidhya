@@ -880,6 +880,9 @@ const whyUs = [
 const ServiceCard = ({ s }) => {
   const [hovered, setHovered] = useState(false);
   return (
+    <Link
+          to={`/services/${s.num}`}
+        >
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -1028,6 +1031,7 @@ const ServiceCard = ({ s }) => {
         </Link>
       </div>
     </div>
+    </Link>
   );
 };
 

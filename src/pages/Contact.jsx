@@ -60,7 +60,7 @@ const contactDetails = [
       </svg>
     ),
     label: "Email Addresses",
-    lines: ["suryavanshipankaj76@gmail.com", "Harisingh.kaurav@gmail.com"],
+    lines: ["suryavanshipankaj76@gmail.com", "harisingh.kaurav@gmail.com"],
   },
   // {
   //   icon: (
@@ -78,7 +78,7 @@ const leadership = [
   {
     name: "Hari Singh Kaurav",
     role: "Managing Director",
-    email: "Harisingh.kaurav@gmail.com",
+    email: "harisingh.kaurav@gmail.com",
     phone: "92292 75444",
   },
   {
