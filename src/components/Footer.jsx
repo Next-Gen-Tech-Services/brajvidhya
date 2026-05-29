@@ -147,7 +147,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-4 pt-6">
                 <a
-                  href="https://facebook.com"
+                  href=" https://www.instagram.com/brajvidhya_services_pvt.ltd?igsh=YTRrd2cybnoyN3ll"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#b8962e] flex items-center justify-center text-[#b8962e] hover:bg-[#b8962e] hover:text-white transition-all duration-300"
@@ -156,7 +156,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="https://instagram.com"
+                  href="https://www.facebook.com/profile.php?id=61580142795011"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#b8962e] flex items-center justify-center text-[#b8962e] hover:bg-[#b8962e] hover:text-white transition-all duration-300"
