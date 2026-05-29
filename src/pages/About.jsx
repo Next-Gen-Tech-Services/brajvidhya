@@ -587,7 +587,7 @@ const About = () => {
                   { label: "Certificate No.", value: "IB 145" },
                   { label: "Standard", value: "ISO/IEC 17020:2012" },
                   { label: "Type", value: "Type 'A' Inspection Body" },
-                  { label: "Initial Accreditation", value: "March 18, 2025" },
+                  // { label: "Initial Accreditation", value: "March 18, 2025" },
                   { label: "Valid Until", value: "March 17, 2028" },
                   { label: "FSSAI Ref.", value: "FSSAI/TPA/2025-25/07" },
                   { label: "Startup India", value: "DIPP174177" },
@@ -836,7 +836,7 @@ const About = () => {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto items-stretch">
             {[
               {
                 name: "Brajvidhya Services Pvt. Ltd.",
@@ -848,18 +848,6 @@ const About = () => {
                   "Fire Safety Inspection",
                   "Energy Audit",
                   "ZED Assessment",
-                ],
-              },
-              {
-                name: "Trumentor Consultant India Pvt. Ltd.",
-                role: "Consulting Arm — CEO",
-                num: "02",
-                services: [
-                  "EIA (Environment Impact Assessment)",
-                  "ZED & LEAN Consultancy",
-                  "Food Consultancy",
-                  "ISO Consultancy & Implementation",
-                  "E-Documentation",
                 ],
               },
               {
