@@ -8,6 +8,17 @@ import ifeLogo from "../assets/accreditations/ife.png";
 import envLogo from "../assets/accreditations/environment.png";
 import eatRightLogo from "../assets/accreditations/eri.png";
 import safetyLogo from "../assets/accreditations/cpcb.png";
+
+import herobg1 from "../assets/service-banners/Fssai.png";
+import herobg2 from "../assets/service-banners/HygieneRating.png";
+import herobg3 from "../assets/service-banners/Zed.png";
+import herobg4 from "../assets/service-banners/EnergyAudit.png";
+import herobg5 from "../assets/service-banners/FireSafety.png";
+import herobg6 from "../assets/service-banners/EnvironmentalAudit.png";
+import herobg7 from "../assets/service-banners/Eatright.png";
+import herobg8 from "../assets/service-banners/SafetyAudit.png";
+import herobg9 from "../assets/service-banners/VerificationandValidation.png";
+
 const C = {
   green: "#1a3d2b",
   greenDk: "#0d2b1c",
@@ -26,6 +37,7 @@ export const services = [
   {
     num: "01",
     badgeImg: fssaiLogo,
+    heroBg: herobg1,
     title: "FSSAI Third Party Audit",
     shortDesc:
       "Independent food safety audits ensuring compliance with FSSAI regulations, hygiene standards, and food handling practices across licensed food businesses.",
@@ -192,6 +204,7 @@ Our audit services are designed to assess the implementation and effectiveness o
   {
     num: "02",
     badgeImg: qciLogo,
+    heroBg: herobg2,
     title: "Hygiene Rating Audit (HRA)",
     shortDesc:
       "FSSAI's transparent scoring scheme that rates food establishments on a 1–5 smiley scale.",
@@ -286,6 +299,7 @@ Our organization provides professional, transparent, and impartial audit service
   {
     num: "03",
     badgeImg: zedLogo,
+    heroBg: herobg3,
     title: "ZED Assessment",
     shortDesc: "Government of India's MSME Sustainable Certification Scheme.",
     points: [
@@ -378,6 +392,7 @@ Our organization is committed to supporting industries in adopting world-class m
   {
     num: "04",
     badgeImg: beeLogo,
+    heroBg: herobg4,
     title: "Energy Audit / Inspection (Non - NABC Accredited)",
     shortDesc:
       "Systematic inspection and analysis of energy flows.",
@@ -442,6 +457,7 @@ Our expert team conducts detailed assessments of electrical systems, equipment p
   {
     num: "05",
     badgeImg: ifeLogo,
+    heroBg: herobg5,
     title: "Fire Safety Inspection",
     shortDesc: "IFE-approved fire safety audits aligned with NBC standards.",
     points: ["NBC compliance", "Evacuation assessment", "Risk reporting"],
@@ -463,6 +479,7 @@ Our expert team conducts detailed assessments of electrical systems, equipment p
   {
     num: "06",
     badgeImg: envLogo,
+    heroBg: herobg6,
     title: "Environmental Audit (Non - NABC Accredited)",
     shortDesc:
       "Objective, documented evaluation of an organization's environmental performance and sustainability compliance.",
@@ -529,6 +546,7 @@ We deliver reliable assessments and practical recommendations that support busin
   {
     num: "07",
     badgeImg: eatRightLogo,
+    heroBg: herobg7,
     title: "Eat Right Initiative",
     shortDesc:
       "FSSAI's national movement for safe, healthy and sustainable food certification programs.",
@@ -625,6 +643,7 @@ Our services help institutions and businesses maintain hygiene, food quality, an
   {
     num: "08",
     badgeImg: safetyLogo,
+    heroBg: herobg8,
     title: "Safety Audit / Inspection",
     shortDesc:
       "Comprehensive examination of workplace safety procedures and regulatory compliance.",
@@ -696,6 +715,7 @@ We focus on minimizing risks, preventing accidents, improving operational safety
   {
     num: "09",
     badgeImg: safetyLogo, // replace with your own logo if available
+    heroBg: herobg9,
     title: "Verification & Validation",
     shortDesc:
       "Independent TPIA verification and validation services for systems, processes, and operational compliance.",

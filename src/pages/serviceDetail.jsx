@@ -36,9 +36,18 @@ const ServiceDetail = () => {
       {/* HERO */}
       <section
         className="relative overflow-hidden"
-        style={{
-          background: `linear-gradient(135deg, ${C.greenDk} 0%, ${C.green} 60%, #1e4d35 100%)`,
-        }}
+        style={
+          service.heroBg
+            ? {
+              backgroundImage: `url(${service.heroBg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }
+            : {
+              background: `linear-gradient(135deg, ${C.greenDk} 0%, ${C.green} 60%, #1e4d35 100%)`,
+            }
+        }
       >
         <div
           className="absolute top-0 right-0 w-96 h-96 rounded-full opacity-10"
