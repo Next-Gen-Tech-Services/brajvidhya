@@ -73,7 +73,7 @@ const Footer = () => {
               style={{ background: "#b8962e" }}
             />
             <p className="text-[#6a8a7a] text-sm leading-relaxed mb-6">
-              NABCB accredited inspection body recognized by FSSAI, QCI, IFE
+              NABCB accredited IB inspection body recognized by FSSAI, QCI, IFE
                & NDIE. Ensuring quality, safety and compliance across India.
             </p>
 

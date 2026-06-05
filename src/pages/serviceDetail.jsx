@@ -1249,7 +1249,7 @@ const ServiceDetail = () => {
               >
                 <div className="space-y-4">
                   {[
-                    "NABCB Accredited",
+                    "NABCB Accredited IB",
                     "PAN India Service",
                     "Certified Auditors",
                     "Transparent Reporting",

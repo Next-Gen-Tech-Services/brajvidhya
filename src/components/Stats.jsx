@@ -44,7 +44,7 @@ const StatsSection = () => {
               </h2>
             </div>
             <p className="text-[#6a8a7a] text-sm max-w-sm leading-relaxed">
-              NABCB accredited and recognized by FSSAI, QCI, IFE and NDIE — delivering trusted inspection services nationwide.
+              NABCB accredited IB and recognized by FSSAI, QCI, IFE and NDIE — delivering trusted inspection services nationwide.
             </p>
           </div>
 

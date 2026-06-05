@@ -158,7 +158,7 @@ const HeroCarousel = () => {
             <div className="inline-flex items-start lg:items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-[#b8962e]/40 bg-[#b8962e]/10">
               <span className="w-2 h-2 rounded-full bg-[#b8962e] animate-pulse" />
               <span className="text-[#b8962e] text-[11px] font-bold tracking-[2px] uppercase">
-                NABCB Accredited · ISO/IEC 17020:2012
+                NABCB Accredited IB · ISO/IEC 17020:2012
               </span>
             </div>
 
@@ -255,7 +255,7 @@ const HeroCarousel = () => {
               {/* NABCB badge */}
               <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-[#0d2b1c] border-2 border-[#b8962e] rounded-full px-4 py-1 whitespace-nowrap">
                 <span className="text-[#b8962e] text-[10px] font-bold tracking-[2px]">
-                  NABCB ACCREDITED
+                  NABCB ACCREDITED IB
                 </span>
               </div>
             </div>

@@ -90,7 +90,7 @@ export const services = [
     description:
       "A systematic examination of a workplace or facility to assess how well safety procedures, equipment, and practices comply with legal standards and internal policies.",
     image: "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=600&q=80",
-    badge: "NABCB Accredited",
+    badge: "NABCB Accredited IB",
     badgeColor: "#b8962e",
     tags: ["Workplace Safety", "Legal Compliance", "NABCB"],
     to: "/services/safety-audit",
@@ -104,7 +104,7 @@ export const services = [
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80",
     badge: "TPIA Services",
     badgeColor: "#2e5b8a",
-    tags: ["Verification", "Validation", "Compliance", "TPIA"],
+    tags: ["Verification", "Validation", "Compliance", "TPIA", "Non-NABCB Accredited"],
     to: "/services/verification-validation",
 },
 ];

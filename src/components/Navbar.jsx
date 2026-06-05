@@ -74,7 +74,7 @@ const Navbar = () => {
       </div>
 
       {/* ── DESKTOP BAR ── */}
-      <div className="hidden md:grid max-w-[1280px] mx-auto grid-cols-[1fr_auto_1fr] items-center px-6 h-[76px]">
+      <div className="hidden md:grid max-w-[1280px] mx-auto grid-cols-[1fr_auto_1fr] items-center px-6 h-[110px]">
         <nav className="flex items-center justify-end gap-10 pr-10">
           {navLinks.slice(0, 3).map((link) => (
             <NavLink
@@ -90,7 +90,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Logo"
-            className="h-[70px] w-[70px] rounded-full object-cover border-2 border-yellow-600 bg-white"
+            className="h-[100px] w-[100px] rounded-full object-cover border-2 border-yellow-600 bg-white"
           />
         </Link>
 

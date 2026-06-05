@@ -704,6 +704,7 @@ We focus on minimizing risks, preventing accidents, improving operational safety
       "System & process compliance verification",
       "Operational effectiveness validation",
       "Risk identification & continual improvement",
+      "Non-NABCB Accredited",
     ],
     detailContent: {
   introduction: `
@@ -779,7 +780,7 @@ const whyUs = [
         <path d="M7 11V7a5 5 0 0 1 10 0v4" />
       </svg>
     ),
-    title: "NABCB Accredited Body",
+    title: "NABCB Accredited IB Body",
     desc: "ISO/IEC 17020:2012 Type 'A' Inspection Body. Certificate No. IB 145, valid till March 2028.",
   },
   {
@@ -1085,7 +1086,7 @@ const ServicesPage = () => (
           <div className="flex flex-wrap gap-3">
             {[
               "8 Service Domains",
-              "NABCB Accredited",
+              "NABCB Accredited IB",
               "PAN India Coverage",
               "ISO/IEC 17020",
             ].map((b) => (
@@ -1377,7 +1378,7 @@ const ServicesPage = () => (
         </h2>
         <p className="mb-8 text-sm" style={{ color: "rgba(13,43,28,0.7)" }}>
           Contact our team today to begin your audit journey with India's most
-          trusted NABCB accredited inspection body.
+          trusted NABCB accredited IB inspection body.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
