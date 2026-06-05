@@ -5,7 +5,6 @@ import fssaiLogo from "../assets/accreditations/fssai.png";
 import qciLogo from "../assets/accreditations/qci.png";
 import ifeLogo from "../assets/accreditations/ife.png";
 import ndieLogo from "../assets/accreditations/ndie.png";
-import beeLogo from "../assets/accreditations/bee.png";
 import msmeLogo from "../assets/accreditations/msme.png";
 import isoLogo from "../assets/accreditations/iso.png";
 
@@ -36,11 +35,6 @@ const badges = [
     full: "National Dairy Inspection Enterprise",
     img: ndieLogo,
   },
-  // {
-  //   name: "BEE",
-  //   full: "Bureau of Energy Efficiency",
-  //   img: beeLogo,
-  // },
   {
     name: "MSME",
     full: "Ministry of Micro, Small & Medium Enterprises",
@@ -203,7 +197,7 @@ const HeroCarousel = () => {
 
             <p className="text-[#c8c0b0] text-base md:text-lg leading-relaxed mb-4 max-w-lg">
               India's trusted third-party inspection body — recognized by FSSAI,
-              IFE, QCI, BEE & NDIE. Partnering with us means choosing a reliable
+              IFE, QCI & NDIE. Partnering with us means choosing a reliable
               body dedicated to ensuring your operations meet the highest
               standards of quality and safety.
             </p>
@@ -285,23 +279,7 @@ const HeroCarousel = () => {
                   </div>
                 ))}
               </div>
-
-              {/* Recognition badges */}
-              {/* <div className="mt-4 pt-4 border-t border-[#b8962e]/20">
-                <div className="text-[9px] text-[#706860] uppercase tracking-widest mb-2">
-                  Recognized By
-                </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {["FSSAI", "QCI", "IFE", "NDIE", "BEE", "MSME"].map((b) => (
-                    <span
-                      key={b}
-                      className="text-[10px] px-2 py-0.5 rounded border border-[#b8962e]/40 text-[#b8962e] bg-[#b8962e]/10 font-bold tracking-wider"
-                    >
-                      {b}
-                    </span>
-                  ))}
-                </div>
-              </div> */}
+            
             </div>
           </div>
         </div>

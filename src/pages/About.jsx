@@ -472,7 +472,7 @@ const About = () => {
               style={{ color: "rgba(255,255,255,0.72)" }}
             >
               NABCB Accredited Inspection Body · ISO/IEC 17020:2012 · IB 145 ·
-              Recognized by FSSAI, QCI, IFE, BEE & NDIE
+              Recognized by FSSAI, QCI, IFE & NDIE
             </p>
             {/* <div className="flex flex-wrap gap-3">
               {[
@@ -541,7 +541,7 @@ const About = () => {
             >
               Brajvidhya Services Private Limited is an NABCB accredited
               inspection body, recognized by many PSUs, councils and regulatory
-              bodies like <strong>FSSAI, IFE, QCI, BEE, NDIE</strong> etc.,
+              bodies like <strong>FSSAI, IFE, QCI, NDIE</strong> etc.,
               based in Indore, India — renowned for its expertise in third-party
               inspections.
             </p>

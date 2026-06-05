@@ -76,7 +76,7 @@ const goals = [
   {
     num: "04",
     title: "Support Regulatory Compliance",
-    desc: "Assist clients in meeting FSSAI, QCI, BEE and global certification requirements including HACCP, ISO 22000 and ZED — ensuring full statutory compliance.",
+    desc: "Assist clients in meeting FSSAI, QCI and global certification requirements including HACCP, ISO 22000 and ZED — ensuring full statutory compliance.",
     icon: (
       <svg
         viewBox="0 0 24 24"

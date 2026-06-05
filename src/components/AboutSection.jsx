@@ -29,7 +29,7 @@ const highlights = [
   },
 ];
 
-const recognitions = ["NABCB", "FSSAI", "QCI", "IFE", "BEE", "NDIE", "MSME"];
+const recognitions = ["NABCB", "FSSAI", "QCI", "IFE", "NDIE", "MSME"];
 
 // ── About Section (for Home page) ─────────────────────────────
 const AboutSection = () => {
@@ -101,7 +101,7 @@ const AboutSection = () => {
             <div className="w-14 h-[3px] mb-6" style={{ background: "#b8962e" }} />
 
             <p className="text-gray-600 leading-relaxed mb-4 text-base">
-              <span className="font-bold text-[#1a3d2b]">Brajvidhya Services Private Limited</span> is an NABCB accredited inspection body, recognized by many PSUs, councils and regulatory bodies like FSSAI, IFE, QCI, BEE and NDIE — based in <span className="font-semibold">Indore, Madhya Pradesh</span>.
+              <span className="font-bold text-[#1a3d2b]">Brajvidhya Services Private Limited</span> is an NABCB accredited inspection body, recognized by many PSUs, councils and regulatory bodies like FSSAI, IFE, QCI and NDIE — based in <span className="font-semibold">Indore, Madhya Pradesh</span>.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6 text-sm">
               Renowned for expertise in third-party inspections with a robust focus on quality and compliance. We serve sectors including Food Safety Audit, Fire Safety Audit, Hygiene Rating Audit, Energy Audit, Environment Audit and ZED-MSME Assessment.

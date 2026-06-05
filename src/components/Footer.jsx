@@ -3,7 +3,6 @@ import nabcbLogo from "../assets/accreditations/nabcb.png";
 import fssaiLogo from "../assets/accreditations/fssai.png";
 import qciLogo from "../assets/accreditations/qci.png";
 import ifeLogo from "../assets/accreditations/ife.png";
-import beeLogo from "../assets/accreditations/bee.png";
 import msmeLogo from "../assets/accreditations/msme.png";
 import logo from "../assets/logos/finalLogo.jpeg";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
@@ -31,7 +30,6 @@ const recognitions = [
   { name: "FSSAI", img: fssaiLogo },
   { name: "QCI", img: qciLogo },
   { name: "IFE", img: ifeLogo },
-  { name: "BEE", img: beeLogo },
   { name: "MSME", img: msmeLogo },
 ];
 const Footer = () => {
@@ -75,8 +73,8 @@ const Footer = () => {
               style={{ background: "#b8962e" }}
             />
             <p className="text-[#6a8a7a] text-sm leading-relaxed mb-6">
-              NABCB accredited inspection body recognized by FSSAI, QCI, IFE,
-              BEE & NDIE. Ensuring quality, safety and compliance across India.
+              NABCB accredited inspection body recognized by FSSAI, QCI, IFE
+               & NDIE. Ensuring quality, safety and compliance across India.
             </p>
 
             {/* Contact info */}
