@@ -74,7 +74,7 @@ const Footer = () => {
             />
             <p className="text-[#6a8a7a] text-sm leading-relaxed mb-6">
               NABCB accredited IB inspection body recognized by FSSAI, QCI, IFE
-               & NDIE. Ensuring quality, safety and compliance across India.
+              & NDIE. Ensuring quality, safety and compliance across India.
             </p>
 
             {/* Contact info */}
@@ -145,7 +145,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-4 pt-6">
                 <a
-                  href=" https://www.instagram.com/brajvidhya_services_pvt.ltd?igsh=YTRrd2cybnoyN3ll"
+                  href="https://www.facebook.com/profile.php?id=61580142795011"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#b8962e] flex items-center justify-center text-[#b8962e] hover:bg-[#b8962e] hover:text-white transition-all duration-300"
@@ -154,7 +154,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="https://www.facebook.com/profile.php?id=61580142795011"
+                  href="https://www.instagram.com/brajvidhya_services_pvt.ltd?igsh=YTRrd2cybnoyN3ll"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-9 h-9 rounded-full border border-[#b8962e] flex items-center justify-center text-[#b8962e] hover:bg-[#b8962e] hover:text-white transition-all duration-300"
